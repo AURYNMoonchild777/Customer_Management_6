@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Customer_Management</string>
+    <string name="successful_login_message">Login successful!</string>
+    <string name="unsuccessful_login_message">Login unsuccessful.</string>
+    <string name="username">Logged In: jdoe</string>
+    <string name="password">Password</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="login_button">LOGIN</string>
+
+    <string name="new_customer_entry">New Customer Entry</string>
+    <string name="customer_name">Name:</string>
+    <string name="date_of_birth">Date of Birth:</string>
+    <string name="address">Address:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="sessions">Number of sessions per month:</string>
+    <string name="notes">Notes:</string>
+    <string name="add_customer">Add</string>
+    <string name="back">Back</string>
+
+    <string name="customer_list_title">List of Customers</string>
+    <string name="photo">Picture:</string>
+
+    <string name="take_photo">Take a customer\'s picture.</string>
+    <string name="photo_button">Go to camera.</string>
+
+    <string name="session_page_title">Sessions Manager</string>
+    <string name="sessions_button1">View Or Edit Sessions</string>
+    <string name="sessions_button2">Enter a new session</string>
+    <string name="sessions_button3">Customer Session Completed Signing</string>
+
+    <string name="payment_and_billing">Payment and Billing</string>
+    <string name="payment_button1">Customer Billing Information</string>
+    <string name="payment_button2">Submit Payment</string>
+    <string name="payment_button3">Reciept</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="log_out">Log Out</string>
+
+
+</resources>
+
+
