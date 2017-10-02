@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bignerdranch.android.customer_management.CustomerList">
+
+    <fragment android:name="com.bignerdranch.android.customer_management.UsernameFragment"
+              android:id="@+id/logged_in"
+              android:textSize="25sp"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:text="@string/username"
+              android:layout_marginTop="3dp"
+              tools:layout="@layout/fragment_username"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/customer_list_title"
+        android:textSize="35sp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/logged_in"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/customer_name"
+        android:layout_marginTop = "24dp"
+        android:textSize="35sp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/photo"
+        android:textSize="35sp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "120dp"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentEnd = "true"
+
+        android:id="@+id/imageView2"/>
+
+
+</RelativeLayout>

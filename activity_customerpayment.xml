@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bignerdranch.android.customer_management.CustomerpaymentActivity">
+
+    <fragment android:name="com.bignerdranch.android.customer_management.UsernameFragment"
+              android:id="@+id/logged_in"
+              android:textSize="25sp"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:layout_marginLeft="330dp"
+              android:text="@string/username"
+              android:layout_marginTop="3dp"
+              tools:layout="@layout/fragment_username"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/payment_and_billing"
+        android:textSize="35sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/payment_button1"
+        android:textSize="35sp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="77dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/payment_button2"
+        android:textSize="35sp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="207dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/payment_button3"
+        android:textSize="35sp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="297dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"/>
+
+
+
+</android.support.constraint.ConstraintLayout>
